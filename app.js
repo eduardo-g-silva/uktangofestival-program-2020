@@ -1,4 +1,4 @@
-class PWAConfApp {
+class UKTFFestivalProgramApp {
   constructor() {
     this.speakersDiv = document.querySelector('.speakers');
     this.scheduleDiv = document.querySelector('.schedule');
@@ -82,5 +82,5 @@ class PWAConfApp {
 }
 
 window.addEventListener('load', e => {
-  new PWAConfApp();
+  new UKTFFestivalProgramApp();
 });
